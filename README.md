@@ -20,7 +20,7 @@ It loads Blog data from RealTime Database (stored in Firebase) and shows it in R
 - Custom toolbar.
 
 ## Built With 🛠
-- [Kotlin](https://kotlinlang.org/)
+- [Kotlin](https://kotlinlang.org/) - First class and official programming language for Android development.
 - [Firebase](https://firebase.google.com/) - For Storing and Retrieving Data.
 - [Picasso](https://square.github.io/picasso/) - For loading images retrieved from Firebase.
 
