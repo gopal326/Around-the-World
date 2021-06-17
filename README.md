@@ -27,9 +27,6 @@ It loads Blog data from RealTime Database (stored in Firebase) and shows it in R
 Other Tools Used:
 
 -[Image Baker](https://www.img-bak.in/) - For converting images in all sizes including xxhdpi, xhdpi, hdpi, mdpi, ldpi drawables.
-
 -[MockuPhone](https://mockuphone.com/) - For generating device mockups.
-
 -[Canva](https://www.canva.com/) - For design.
-
 -Fonts - Anaktoria, Open Sans Regular, Open Sans SemiBold
