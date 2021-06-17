@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "894803800134",
+    "firebase_url": "https://around-the-world-c6454-default-rtdb.firebaseio.com",
+    "project_id": "around-the-world-c6454",
+    "storage_bucket": "around-the-world-c6454.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:894803800134:android:522cc912c80d074b86da47",
+        "android_client_info": {
+          "package_name": "com.example.aroundtheworld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "894803800134-95gl76bri8pb7dtitp1ah8ps3qqi0vvh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAz4Q8avvbqPh7znKaBndnrUJgSKAoXL8s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "894803800134-95gl76bri8pb7dtitp1ah8ps3qqi0vvh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

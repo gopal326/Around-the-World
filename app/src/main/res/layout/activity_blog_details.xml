@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="8dp"
+        app:cardBackgroundColor="@color/background_color1"
+        app:cardCornerRadius="8dp"
+        android:layout_margin="15dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginVertical="5dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp">
+
+
+            <ImageView
+                android:id="@+id/blog_imageUrl"
+                android:layout_gravity="center"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                android:layout_marginBottom="5dp"
+                tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/blog_title"
+                    android:textStyle="bold
+"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="This is a sample title for this blog."
+                    android:textColor="@color/text_color_heading1"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/anaktoria"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginBottom="8dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/blog_author"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="Author1"
+                    android:fontFamily="@font/open_sans_regular"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textStyle="bold"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp">
+                    <TextView
+                        android:id="@+id/blog_body"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/open_sans_regular"
+                        android:text="When I visited New York in December, I admit that despite thermals and layers, I was freezing. The cold temperatures – sometimes reaching lows of -2°C – were further blighted by biting Arctic winds.  Yet streaming eyes, and a faced pinched by the frost did not deter me from enjoying an hour-long narrated horse and carriage ride around Central Park warmed by a cosy blanket. Or sauntering (with a guide) around the park’s huge expanse enjoying picturesque spells of sunny hues as they fell upon ground decorated with new snowfall. And stumbling upon Yoko Ono’s heart-warming memorial to the much-loved John Lennon. Milling around the Rockefellar Centre was a joy. Hot chocolate in hand while perched on one of the many benches around the rink I watched as dare-devils attempted to glide around its ice-rink. All the while the 18-foot-tall, eight-ton, gilded cast bronze sculpture, created by Paul Manship in 1934, looked on. The view is even better from Top of the Rock and from this vantage all the city becomes available to view."
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:justificationMode="inter_word"
+                        android:paddingRight="15dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginStart="8dp"
+
+                        />
+
+                </ScrollView>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</layout>
