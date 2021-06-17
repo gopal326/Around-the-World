@@ -24,8 +24,7 @@ It loads Blog data from RealTime Database (stored in Firebase) and shows it in R
 - [Firebase](https://firebase.google.com/) - For Storing and Retrieving Data.
 - [Picasso](https://square.github.io/picasso/) - For loading images retrieved from Firebase.
 
-Other Tools Used:
-
+## Other Tools Used:
 -[Image Baker](https://www.img-bak.in/) - For converting images in all sizes including xxhdpi, xhdpi, hdpi, mdpi, ldpi drawables.
 -[MockuPhone](https://mockuphone.com/) - For generating device mockups.
 -[Canva](https://www.canva.com/) - For design.
