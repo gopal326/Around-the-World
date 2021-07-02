@@ -9,7 +9,7 @@
 
 ***You can Install the app from below 👇***
 
-[![Around the World App](https://img.shields.io/badge/Around%20the%20World-APK-orange)](https://github.com/gopal326/Around-the-World/blob/master/app/Around%20the%20World.apk)
+[![Around the World App](https://img.shields.io/badge/Around%20the%20World-APK-orange)](https://github.com/gopal326/Around-the-World/raw/master/app/Around%20the%20World.apk)
 
 
 ## About
